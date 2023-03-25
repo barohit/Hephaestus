@@ -8,4 +8,5 @@ def main():
     local_ravager.physical_attack()
     local_thunderjaw.shoot_jaw_cannon()
 
+
 main()

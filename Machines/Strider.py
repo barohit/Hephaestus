@@ -1,5 +1,6 @@
 from Machines.Machine import Machine
 
+
 class Strider(Machine):
 
     def __init__(self):

@@ -1,3 +1,5 @@
+from abc import abstractmethod
+
 
 class Machine:
 
@@ -9,5 +11,6 @@ class Machine:
         self.max_depth = max_depth
         self.weight = weight
 
+    @abstractmethod
     def physical_attack(self):
         pass

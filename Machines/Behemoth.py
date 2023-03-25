@@ -1,5 +1,6 @@
 from Machines.Machine import Machine
 
+
 class Behemoth(Machine):
 
     def __init__(self):
